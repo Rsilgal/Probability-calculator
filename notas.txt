@@ -1,0 +1,34 @@
+
+
+# def obj_to_list(object):
+#     # object = {}
+#     restult = []
+
+#     if type(object) is dict:
+#         key_list = object.keys()
+#         # value_list = object.values()
+
+#         for key in key_list:
+#             for j in range(object.get(key)):
+#                 restult.append(key)
+
+#     return(restult)
+
+# a = Hat(red=2, blue=3)
+# a = obj_to_list({"red":2,"green":1})
+# print(a)
+
+# ##### COMPROBAR
+# # dup = copy.copy(hat)
+#     m = 0
+#     expected_balls_list = obj_to_list(expected_balls)
+
+#     if type(expected_balls) is dict:
+#         for i in range(num_experiments):
+#             dup = copy.deepcopy(hat)
+#             exp = dup.draw(num_balls_drawn)
+
+#             if set(expected_balls_list).issubset(set(exp)):
+#                 m += 1
+
+#     return m/num_experiments
